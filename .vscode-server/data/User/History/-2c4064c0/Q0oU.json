@@ -1,0 +1,14 @@
+{
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "python.defaultInterpreterPath": "C:\\Users\\82103\\AppData\\Local\\Microsoft\\WindowsApps\\python3.10.exe",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "remote.SSH.remotePlatform": {
+    "torrac": "linux"
+  }
+}

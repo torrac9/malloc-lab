@@ -1,0 +1,36 @@
+2023-05-06 09:17:15.504 [info] Log level: Info
+2023-05-06 09:17:15.504 [info] Validating found git in: "git"
+2023-05-06 09:17:15.504 [info] Using git "2.25.1" from "git"
+2023-05-06 09:17:15.504 [info] > git rev-parse --show-toplevel [48ms]
+2023-05-06 09:17:15.504 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-06 09:17:15.504 [info] > git rev-parse --show-toplevel [12ms]
+2023-05-06 09:17:15.504 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-05-06 09:17:15.504 [info] Open repository: /home/ubuntu/rbtree-lab
+2023-05-06 09:17:15.504 [info] > git rev-parse --show-toplevel [6ms]
+2023-05-06 09:17:15.505 [info] > git config --get commit.template [6ms]
+2023-05-06 09:17:15.505 [info] > git rev-parse --show-toplevel [7ms]
+2023-05-06 09:17:15.505 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-06 09:17:15.505 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2023-05-06 09:17:15.505 [info] > git rev-parse --show-toplevel [12ms]
+2023-05-06 09:17:15.505 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-06 09:17:15.505 [info] > git status -z -uall [10ms]
+2023-05-06 09:17:15.506 [info] > git rev-parse --show-toplevel [35ms]
+2023-05-06 09:17:15.506 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-06 09:17:15.506 [info] > git config --get commit.template [7ms]
+2023-05-06 09:17:15.506 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2023-05-06 09:17:15.506 [info] > git rev-parse --show-toplevel [49ms]
+2023-05-06 09:17:15.506 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-06 09:17:15.506 [info] > git status -z -uall [30ms]
+2023-05-06 09:17:15.506 [info] > git rev-parse --show-toplevel [22ms]
+2023-05-06 09:17:15.506 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-06 09:17:15.506 [info] > git rev-parse --show-toplevel [88ms]
+2023-05-06 09:17:15.506 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-06 09:17:15.506 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-06 09:17:15.506 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-06 09:17:15.635 [info] > git show --textconv :src/rbtree.c [15ms]
+2023-05-06 09:17:15.636 [info] > git show --textconv :test/test-rbtree.c [12ms]
+2023-05-06 09:17:15.636 [info] > git ls-files --stage -- /home/ubuntu/rbtree-lab/src/rbtree.c [7ms]
+2023-05-06 09:17:15.642 [info] > git ls-files --stage -- /home/ubuntu/rbtree-lab/test/test-rbtree.c [8ms]
+2023-05-06 09:17:15.647 [info] > git cat-file -s 63e19f27fca971198aea3fa5f90ad44417207169 [6ms]
+2023-05-06 09:17:15.652 [info] > git cat-file -s 60ed53ead57d33ae01b83a6bd7c03f6484dab1ba [6ms]
+2023-05-06 09:17:15.784 [info] > git check-ignore -v -z --stdin [3ms]

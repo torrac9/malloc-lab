@@ -1,0 +1,37 @@
+2023-05-05 10:09:46.975 [info] 
+
+
+
+
+2023-05-05 10:09:46.975 [info] Extension host agent started.
+2023-05-05 10:09:47.034 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2023-05-05 10:09:47.083 [info] [127.0.0.1][07b02576][ManagementConnection] New connection established.
+2023-05-05 10:09:47.095 [info] [127.0.0.1][137363ab][ExtensionHostConnection] New connection established.
+2023-05-05 10:09:47.107 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2023-05-05 10:09:47.196 [info] [127.0.0.1][137363ab][ExtensionHostConnection] <36411> Launched Extension Host Process.
+2023-05-05 10:11:12.177 [info] [127.0.0.1][07b02576][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-05 10:11:12.217 [info] [127.0.0.1][137363ab][ExtensionHostConnection] <36411> Extension Host Process exited with code: 0, signal: null.
+2023-05-05 10:11:12.217 [info] Cancelling previous shutdown timeout
+2023-05-05 10:11:12.217 [info] Last EH closed, waiting before shutting down
+2023-05-05 10:11:14.831 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-05-05 10:11:14.831 [info] Cancelling previous shutdown timeout
+2023-05-05 10:11:14.966 [info] [127.0.0.1][d32e1942][ManagementConnection] New connection established.
+2023-05-05 10:11:15.013 [info] [127.0.0.1][163d61b5][ExtensionHostConnection] New connection established.
+2023-05-05 10:11:15.018 [info] [127.0.0.1][163d61b5][ExtensionHostConnection] <36580> Launched Extension Host Process.
+2023-05-05 10:16:14.832 [info] New EH opened, aborting shutdown
+2023-05-05 14:35:12.150 [info] [127.0.0.1][8852e1af][ManagementConnection] New connection established.
+2023-05-05 14:35:12.171 [info] [127.0.0.1][f6ef6177][ExtensionHostConnection] New connection established.
+2023-05-05 14:35:12.176 [info] [127.0.0.1][f6ef6177][ExtensionHostConnection] <38862> Launched Extension Host Process.
+2023-05-05 14:40:12.274 [info] [127.0.0.1][163d61b5][ExtensionHostConnection] <36580> Extension Host Process exited with code: 0, signal: null.
+2023-05-05 14:50:56.457 [info] [127.0.0.1][8852e1af][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-05 14:50:56.485 [info] [127.0.0.1][f6ef6177][ExtensionHostConnection] <38862> Extension Host Process exited with code: 0, signal: null.
+2023-05-05 14:50:56.485 [info] Last EH closed, waiting before shutting down
+2023-05-05 14:51:05.543 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-05-05 14:51:05.543 [info] Cancelling previous shutdown timeout
+2023-05-05 14:51:05.640 [info] [127.0.0.1][2b673b23][ManagementConnection] New connection established.
+2023-05-05 14:51:05.665 [info] [127.0.0.1][e0db146b][ExtensionHostConnection] New connection established.
+2023-05-05 14:51:05.705 [info] [127.0.0.1][e0db146b][ExtensionHostConnection] <41303> Launched Extension Host Process.
+2023-05-05 14:56:05.544 [info] New EH opened, aborting shutdown
+2023-05-05 18:06:53.542 [info] [127.0.0.1][e0db146b][ExtensionHostConnection] <41303> Extension Host Process exited with code: 0, signal: null.
+2023-05-05 18:06:53.543 [info] Last EH closed, waiting before shutting down
+2023-05-05 18:11:53.544 [info] Last EH closed, shutting down

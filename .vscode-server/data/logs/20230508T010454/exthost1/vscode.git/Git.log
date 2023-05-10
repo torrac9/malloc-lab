@@ -1,0 +1,43 @@
+2023-05-08 01:04:57.056 [info] Log level: Info
+2023-05-08 01:04:57.056 [info] Validating found git in: "git"
+2023-05-08 01:04:57.056 [info] Using git "2.25.1" from "git"
+2023-05-08 01:04:57.057 [info] > git rev-parse --show-toplevel [53ms]
+2023-05-08 01:04:57.057 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 01:04:57.057 [info] > git rev-parse --show-toplevel [8ms]
+2023-05-08 01:04:57.062 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-05-08 01:04:57.081 [info] Open repository: /home/ubuntu/rbtree-lab
+2023-05-08 01:04:57.099 [info] > git rev-parse --show-toplevel [12ms]
+2023-05-08 01:04:57.105 [info] > git config --get commit.template [12ms]
+2023-05-08 01:04:57.148 [info] > git rev-parse --show-toplevel [45ms]
+2023-05-08 01:04:57.148 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 01:04:57.154 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [45ms]
+2023-05-08 01:04:57.162 [info] > git rev-parse --show-toplevel [10ms]
+2023-05-08 01:04:57.163 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 01:04:57.182 [info] > git status -z -uall [21ms]
+2023-05-08 01:04:57.204 [info] > git rev-parse --show-toplevel [37ms]
+2023-05-08 01:04:57.204 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 01:04:57.210 [info] > git config --get commit.template [7ms]
+2023-05-08 01:04:57.225 [info] > git rev-parse --show-toplevel [16ms]
+2023-05-08 01:04:57.226 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 01:04:57.234 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2023-05-08 01:04:57.247 [info] > git status -z -uall [8ms]
+2023-05-08 01:04:57.662 [info] > git show --textconv :src/rbtree.c [19ms]
+2023-05-08 01:04:57.662 [info] > git show --textconv :test/test-rbtree.c [14ms]
+2023-05-08 01:04:57.663 [info] > git ls-files --stage -- /home/ubuntu/rbtree-lab/src/rbtree.c [6ms]
+2023-05-08 01:04:57.670 [info] > git ls-files --stage -- /home/ubuntu/rbtree-lab/test/test-rbtree.c [9ms]
+2023-05-08 01:04:57.673 [info] > git cat-file -s 63e19f27fca971198aea3fa5f90ad44417207169 [7ms]
+2023-05-08 01:04:57.676 [info] > git cat-file -s 60ed53ead57d33ae01b83a6bd7c03f6484dab1ba [4ms]
+2023-05-08 01:04:57.689 [info] > git check-ignore -v -z --stdin [4ms]
+2023-05-08 01:38:57.775 [info] > git show --textconv :src/rbtree.h [5ms]
+2023-05-08 01:38:57.778 [info] > git ls-files --stage -- /home/ubuntu/rbtree-lab/src/rbtree.h [3ms]
+2023-05-08 01:38:57.782 [info] > git cat-file -s f34ff062785d76947c9a53aa163519f29778bcec [1ms]
+2023-05-08 01:39:42.473 [info] > git check-ignore -v -z --stdin [2ms]
+2023-05-08 01:57:13.359 [info] > git config --get commit.template [5ms]
+2023-05-08 01:57:13.361 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-05-08 01:57:13.366 [info] > git status -z -uall [3ms]
+2023-05-08 02:03:10.860 [info] > git config --get commit.template [4ms]
+2023-05-08 02:03:10.862 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-05-08 02:03:10.867 [info] > git status -z -uall [2ms]
+2023-05-08 02:21:14.968 [info] > git config --get commit.template [15ms]
+2023-05-08 02:21:14.975 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2023-05-08 02:21:14.988 [info] > git status -z -uall [11ms]

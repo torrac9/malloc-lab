@@ -1,0 +1,36 @@
+2023-05-09 11:32:38.662 [info] Log level: Info
+2023-05-09 11:32:38.663 [info] Validating found git in: "git"
+2023-05-09 11:32:38.663 [info] Using git "2.25.1" from "git"
+2023-05-09 11:32:38.663 [info] > git rev-parse --show-toplevel [43ms]
+2023-05-09 11:32:38.664 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-09 11:32:38.664 [info] > git rev-parse --show-toplevel [4ms]
+2023-05-09 11:32:38.664 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-05-09 11:32:38.664 [info] Open repository: /home/ubuntu/rbtree-lab
+2023-05-09 11:32:38.665 [info] > git rev-parse --show-toplevel [6ms]
+2023-05-09 11:32:38.665 [info] > git config --get commit.template [6ms]
+2023-05-09 11:32:38.665 [info] > git rev-parse --show-toplevel [8ms]
+2023-05-09 11:32:38.665 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-09 11:32:38.666 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2023-05-09 11:32:38.666 [info] > git status -z -uall [94ms]
+2023-05-09 11:32:38.666 [info] > git rev-parse --show-toplevel [106ms]
+2023-05-09 11:32:38.666 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-09 11:32:38.667 [info] > git rev-parse --show-toplevel [37ms]
+2023-05-09 11:32:38.667 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-09 11:32:38.668 [info] > git config --get commit.template [28ms]
+2023-05-09 11:32:38.668 [info] > git rev-parse --show-toplevel [18ms]
+2023-05-09 11:32:38.668 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-09 11:32:38.668 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-05-09 11:32:38.673 [info] > git status -z -uall [20ms]
+2023-05-09 11:32:39.056 [info] > git show --textconv :src/rbtree.c [13ms]
+2023-05-09 11:32:39.056 [info] > git show --textconv :test/test-rbtree.c [10ms]
+2023-05-09 11:32:39.057 [info] > git ls-files --stage -- /home/ubuntu/rbtree-lab/src/rbtree.c [5ms]
+2023-05-09 11:32:39.063 [info] > git ls-files --stage -- /home/ubuntu/rbtree-lab/test/test-rbtree.c [8ms]
+2023-05-09 11:32:39.067 [info] > git cat-file -s 63e19f27fca971198aea3fa5f90ad44417207169 [7ms]
+2023-05-09 11:32:39.071 [info] > git cat-file -s 60ed53ead57d33ae01b83a6bd7c03f6484dab1ba [5ms]
+2023-05-09 11:32:39.144 [info] > git check-ignore -v -z --stdin [4ms]
+2023-05-09 11:32:59.631 [info] > git show --textconv :test/Makefile [6ms]
+2023-05-09 11:32:59.634 [info] > git ls-files --stage -- /home/ubuntu/rbtree-lab/test/Makefile [4ms]
+2023-05-09 11:32:59.638 [info] > git cat-file -s 0233f364971fae153cb14956853bbe96094847a7 [1ms]
+2023-05-09 11:33:03.748 [info] > git show --textconv :Makefile [5ms]
+2023-05-09 11:33:03.751 [info] > git ls-files --stage -- /home/ubuntu/rbtree-lab/Makefile [4ms]
+2023-05-09 11:33:03.755 [info] > git cat-file -s 00101f6dada9ccafb63c9901c067eeb27c619944 [2ms]

@@ -1,0 +1,9 @@
+[user]
+	name = torrac9
+	email = torrac9934@gmai.com
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential

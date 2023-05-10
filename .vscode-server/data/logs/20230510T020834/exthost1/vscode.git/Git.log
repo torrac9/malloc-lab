@@ -1,0 +1,51 @@
+2023-05-10 02:08:40.888 [info] Log level: Info
+2023-05-10 02:08:40.888 [info] Validating found git in: "git"
+2023-05-10 02:08:40.888 [info] Using git "2.25.1" from "git"
+2023-05-10 02:08:40.889 [info] > git rev-parse --show-toplevel [57ms]
+2023-05-10 02:08:40.889 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-10 02:08:40.889 [info] > git rev-parse --show-toplevel [6ms]
+2023-05-10 02:08:40.889 [info] > git rev-parse --git-dir --git-common-dir [72ms]
+2023-05-10 02:08:40.889 [info] Open repository: /home/ubuntu/rbtree-lab
+2023-05-10 02:08:40.889 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-10 02:08:40.889 [info] > git config --get commit.template [12ms]
+2023-05-10 02:08:40.889 [info] > git rev-parse --show-toplevel [31ms]
+2023-05-10 02:08:40.889 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-10 02:08:40.890 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2023-05-10 02:08:40.890 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-10 02:08:40.890 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-10 02:08:40.890 [info] > git status -z -uall [9ms]
+2023-05-10 02:08:40.894 [info] > git rev-parse --show-toplevel [17ms]
+2023-05-10 02:08:40.894 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-10 02:08:40.916 [info] > git rev-parse --show-toplevel [18ms]
+2023-05-10 02:08:40.916 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-10 02:08:40.920 [info] > git config --get commit.template [27ms]
+2023-05-10 02:08:40.940 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2023-05-10 02:08:40.953 [info] > git status -z -uall [8ms]
+2023-05-10 02:08:41.309 [info] > git show --textconv :Makefile [14ms]
+2023-05-10 02:08:41.309 [info] > git show --textconv :test/test-rbtree.c [10ms]
+2023-05-10 02:08:41.310 [info] > git ls-files --stage -- /home/ubuntu/rbtree-lab/Makefile [5ms]
+2023-05-10 02:08:41.316 [info] > git ls-files --stage -- /home/ubuntu/rbtree-lab/test/test-rbtree.c [8ms]
+2023-05-10 02:08:41.320 [info] > git cat-file -s 00101f6dada9ccafb63c9901c067eeb27c619944 [7ms]
+2023-05-10 02:08:41.323 [info] > git cat-file -s 60ed53ead57d33ae01b83a6bd7c03f6484dab1ba [4ms]
+2023-05-10 02:08:41.354 [info] > git check-ignore -v -z --stdin [3ms]
+2023-05-10 02:10:43.898 [info] > git show --textconv :src/rbtree.c [6ms]
+2023-05-10 02:10:43.901 [info] > git ls-files --stage -- /home/ubuntu/rbtree-lab/src/rbtree.c [4ms]
+2023-05-10 02:10:43.905 [info] > git cat-file -s 63e19f27fca971198aea3fa5f90ad44417207169 [2ms]
+2023-05-10 02:10:44.313 [info] > git check-ignore -v -z --stdin [3ms]
+2023-05-10 02:10:49.775 [info] > git rev-parse --show-toplevel [1ms]
+2023-05-10 02:10:49.781 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-05-10 02:10:49.786 [info] Open repository: /home/ubuntu
+2023-05-10 02:10:49.796 [info] No remotes found in the git config file.
+2023-05-10 02:10:49.797 [info] > git config --get commit.template [7ms]
+2023-05-10 02:10:49.799 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-05-10 02:10:49.852 [info] > git status -z -uall [49ms]
+2023-05-10 02:10:50.351 [info] > git check-ignore -v -z --stdin [23ms]
+2023-05-10 02:10:50.355 [info] > git check-ignore -v -z --stdin [22ms]
+2023-05-10 02:11:09.368 [info] No remotes found in the git config file.
+2023-05-10 02:11:09.369 [info] > git config --get commit.template [5ms]
+2023-05-10 02:11:09.370 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-05-10 02:11:09.395 [info] > git status -z -uall [21ms]
+2023-05-10 02:11:14.473 [info] No remotes found in the git config file.
+2023-05-10 02:11:14.473 [info] > git config --get commit.template [9ms]
+2023-05-10 02:11:14.475 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-05-10 02:11:14.531 [info] > git status -z -uall [51ms]
